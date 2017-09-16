@@ -12,7 +12,7 @@ public class Triangulo {
 
     public String verificaValor() {
         if (L1 <= 0 || L2 <= 0 || L3 <= 0) {
-            return "Entrada Inválida";
+            return "Entrada Invalida";
         }
         return "";
     }
@@ -29,7 +29,7 @@ public class Triangulo {
             return "Equilatero";
         } else {
             if (L1 == L2 || L1 == L3 || L2 == L3) {
-                return "Isósceles";
+                return "Isosceles";
             } else {
                 return "Escaleno";
             }
@@ -45,7 +45,7 @@ public class Triangulo {
                 return "Nao Triangulo";
         }
         else
-            return "Entrada Inválida";
+            return "Entrada Invalida";
     }
 
 }

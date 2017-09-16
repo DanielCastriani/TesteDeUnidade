@@ -86,7 +86,7 @@ public class TestesTriangulo {
                 S = "Nao Triangulo";
             }
         } else {
-            S = "Entrada Inválida";
+            S = "Entrada Invalida";
         }
 
         System.out.println("Todos os Testes2\tL1:" + L1 + "\tL2:" + L2 + "\tL3:" + L3 + "\tS:" + S + "\tES:" + ES + "\n");
