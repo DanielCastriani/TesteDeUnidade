@@ -1,0 +1,4 @@
+L1,L2,L3,ES
+-1,1,1,"Entrada Invalida"
+1,-1,1,"Entrada Invalida"
+1,1,-1,"Entrada Invalida"

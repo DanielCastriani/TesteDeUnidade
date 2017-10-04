@@ -72,25 +72,16 @@ public class TestesTriangulo {
         System.out.println("Todos os Testes\tL1:" + L1 + "\tL2:" + L2 + "\tL3:" + L3 + "\tS:" + S + "\tES:" + ES + "\n");
         assertEquals(ES, S);
     }
-
+    /*
     @Test
     @Source(uri = "TodosTestes.csv", rowBased = true)
     public void TodosTestes2(double L1, double L2, double L3, String ES) {
-        t = new Triangulo(L1, L2, L3);
-
-        String S = "";
-        if (t.verificaValor().isEmpty()) {
-            if (t.verificaTriangulo().isEmpty()) {
-                S = t.TipoTriangulo();
-            } else {
-                S = "Nao Triangulo";
-            }
-        } else {
-            S = "Entrada Invalida";
-        }
-
-        System.out.println("Todos os Testes2\tL1:" + L1 + "\tL2:" + L2 + "\tL3:" + L3 + "\tS:" + S + "\tES:" + ES + "\n");
-        assertEquals(ES, S);
+        t = new Triangulo(L1, L2, L3);        
+        assertEquals(ES, t.verificaValor());
+        assertEquals(ES, t.verificaTriangulo());
+        assertEquals(ES, t.TipoTriangulo());
+        
+        System.out.println("Todos os Testes2\tL1:" + L1 + "\tL2:" + L2 + "\tL3:" + L3 + "\tS:"+ "\tES:" + ES + "\n");        
     }
-
+    */
 }
